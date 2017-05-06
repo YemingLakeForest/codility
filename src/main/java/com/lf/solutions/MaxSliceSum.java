@@ -5,7 +5,7 @@ public class MaxSliceSum {
     public int solution(int[] A) {
 
 
-        int count = 0;
+        int count = Integer.MIN_VALUE;
 
         for (int i=0; i < A.length; i++) {
             int sum = 0;
@@ -24,7 +24,7 @@ public class MaxSliceSum {
     public static void main(String[] args) {
 
         MaxSliceSum equiLeader = new MaxSliceSum();
-        int[] a = {3,2,-6,4,0};
+        int[] a = {-1};
         System.out.println(equiLeader.solution(a));
 
     }
